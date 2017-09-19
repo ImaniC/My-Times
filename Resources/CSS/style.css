@@ -1,14 +1,44 @@
 .header {
-	display: flex;
-	flex: inline-block;
+	display: inline-flex;
 	font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
 	color: MediumAquamarine;
+	align-items: center;
+	width: 50%;
 }
 
-.header nav	{
+nav ul {
+	display: inline-block;
+
+}
+
+.main {
 	display: flex;
-	flex: inline-block
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.column .large {
+	border: 3px solid black;
+	width: 630px;
+}
+
+.column .medium {
+	border: 3px solid black;
+	width: 300px;
+}
+
+.column .small {
+	border: 3px solid black;
+	width: 240px;
+}
+
+.maincontain {
+	display: flex;
+	width: 100%;
+	border: 1px solid black;
+	justify-content: flex-start;
+	flex-direction: column;
 }
 
