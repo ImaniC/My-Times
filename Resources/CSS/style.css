@@ -13,32 +13,44 @@ nav ul {
 
 }
 
-.main {
-	display: flex;
-	justify-content: flex-start;
+.column-large {
+	display: inline-flex;
+	border: 1px solid black;
+	width: 630px;
 	flex-direction: column;
 }
 
-.column .large {
-	border: 3px solid black;
-	width: 630px;
-}
-
-.column .medium {
-	border: 3px solid black;
+.column-medium {
+	display: inline-flex;
+	border: 1px solid black;
 	width: 300px;
+	flex-direction: column;
+
 }
 
-.column .small {
-	border: 3px solid black;
+.column-small {
+	display: inline-flex;
+	border: 1px solid black;
 	width: 240px;
+	flex-direction: column;
 }
 
-.maincontain {
+.main {
 	display: flex;
 	width: 100%;
 	border: 1px solid black;
-	justify-content: flex-start;
-	flex-direction: column;
+	padding: 20px;
+}
+
+.border {
+	border: 1px solid black;
+}
+.title {
+	border: 1px solid black;
+}
+
+.left {
+	border: 1px solid black;
+
 }
 
